@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Login</title>
+</head>
+<body>
+<form name="loginForm" method="post" action="main.html">
+<table width="20%" bgcolor="0099CC" align="center">
+
+<div>
+<img scr="resources/Login.jpg" alt="Login">
+</div>
+
+<div>
+<p>Username:</p>
+<p><input type="text" size=25 name="userid"></p>
+</div>
+
+<div>
+<p>Password:</p>
+<p><input type="Password" size=25 name="pwd"></p>
+</div>
+
+<div>
+<p><input type="submit" onclick="return check(this.form)" value="Login"></p>
+</div>
+
+</table>
+</form>
+<script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == "EBKGP" && form.pwd.value == "EBKGames")
+{
+	return divue;
+}
+else
+{
+	alert("Error Password or Username")
+	return false;
+}
+}
+</script>
+
+</body>
+</html>
