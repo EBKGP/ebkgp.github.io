@@ -2,4 +2,5 @@ body {
 	font-family: arial;
 	text-align: center;
 	backgroun-image: url("/Capture.png");
+	backgroun-image: repeat-x;
 }
